@@ -7,7 +7,8 @@ The eBay Enterprise Couchbase Session Driver provides a SessionHandler interface
 ## Contents
 
 1. [Contributing to This Project](CONTRIBUTING.md)
-1. [Change Log](CHANGELOG.md)
+2. [Change Log](CHANGELOG.md)
+3. [Setup Guide](INSTALL.md)
 
 ## License
 
