@@ -1,4 +1,4 @@
-![eBay logo](docs/static/logo-vert.png)
+[![ebay logo](docs/static/logo-vert.png)](http://www.ebayenterprise.com/)
 
 **Magento Couchbase Session Driver**
 # eBay Enterprise Contribution Guide

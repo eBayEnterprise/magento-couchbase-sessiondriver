@@ -1,4 +1,4 @@
-![eBay Enterprise](static/logo-vert.png)
+[![ebay logo](static/logo-vert.png)](http://www.ebayenterprise.com/)
 
 **Magento Couchbase Session Driver**
 # Installation and Configuration Guide

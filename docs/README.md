@@ -1,4 +1,4 @@
-[![ebay logo](docs/static/logo-vert.png)](http://www.ebayenterprise.com/)
+[![ebay logo](static/logo-vert.png)](http://www.ebayenterprise.com/)
 
 ## Magento Couchbase Session Driver (CRUD complaint)
 
