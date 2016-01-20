@@ -9,19 +9,18 @@
  * It is also available through the world-wide-web at this URL:
  * http://opensource.org/licenses/osl-3.0.php
  *
- * DISCLAIMER
+ * Derivative work based on original work created by: Magento
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  *
- * Do not edit or add to this file if you wish to upgrade Magento to newer
- * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magento.com for more information.
- *
+ * Changes by: eBay Enterprise, Inc.
  * @category    Mage
- * @package     Mage_Core 
- * @copyright   Copyright (c) 2015-2016 Ebay Enterprise, Inc. (http://www.ebayenterprise.com)
+ * @package     Mage_Core
  * @author      Robert Krule <rkrule@ebay.com>
  * @createdate  December 2, 2015
+ * @copyright   Copyright (c) 2015-2016 eBay Enterprise, Inc. (http://www.ebayenterprise.com/)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
+**/
 
 class Mage_Core_Model_Session_Abstract_CouchbaseSession implements SessionHandlerInterface {
    /* Bots get shorter session lifetimes */
