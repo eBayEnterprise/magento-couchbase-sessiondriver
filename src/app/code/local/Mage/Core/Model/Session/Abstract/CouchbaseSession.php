@@ -161,8 +161,13 @@ class Mage_Core_Model_Session_Abstract_CouchbaseSession implements SessionHandle
 
 	if ( $this->_expire === null )
 	{
-		$userAgent = $_SERVER['HTTP_USER_AGENT'];
-		
+		$userAgent = '';
+
+		if( isset($_SERVER['HTTP_USER_AGENT']))
+		{
+			$userAgent = $_SERVER['HTTP_USER_AGENT'];
+		}
+
 		if( strcmp( $userAgent, '') !== 0 )
 		{
                 	$isBot = ! $userAgent || preg_match(self::BOT_REGEX, $userAgent);
